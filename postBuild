@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+# Install Chromium for Playwright once during image build
+playwright install chromium
